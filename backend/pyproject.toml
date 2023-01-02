@@ -24,7 +24,7 @@ shapely-geojson = "*"
 pandas = "^1.5.1"
 openrouteservice = "*"
 ortools = "^9.4.1874"
-geopandas = "^0.10.2"
+geopandas = "^0.12.2"
 httpx = "^0.23.1"
 pyvroom = "^0.0.14"
 
