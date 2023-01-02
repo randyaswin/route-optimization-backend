@@ -12,4 +12,3 @@ from app.models.vehicle_capacity import VehicleCapacity
 from app.models.vehicle_break import VehicleBreak
 from app.models.tag import Tag, TagAppliesTo
 from app.models.optimized import Optimized
-

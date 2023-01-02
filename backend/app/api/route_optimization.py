@@ -68,35 +68,36 @@ async def solve(
             },
             timeout=None,
         )
-        
+
     if response.status_code == 200:
         response = response.json()
         oprimized = Optimized(
-            id = response['code'],
-            timestamp = datetime.datetime.now(),
-            cost = response['summary']['cost'],
-            routes_count = response['summary']['routes'],
-            unassigned_count = response['summary']['unassigned'],
-            routes = response['routes'],
-            unassigned = response['unassigned'],
-            setup = response['summary']['setup'],
-            service = response['summary']['service'],
-            duration = response['summary']['duration'],
-            waiting_time = response['summary']['waiting_time'],
-            priority = response['summary']['priority'],
-            loading = response['summary']['computing_times']['loading'],
-            solving = response['summary']['computing_times']['solving'],
-            delivery = response['summary']['delivery'],
-            amount = response['summary']['amount'],
-            hub_id = hub_id,
-            user_id = user.id
+            id=response["code"],
+            timestamp=datetime.datetime.now(),
+            cost=response["summary"]["cost"],
+            routes_count=response["summary"]["routes"],
+            unassigned_count=response["summary"]["unassigned"],
+            routes=response["routes"],
+            unassigned=response["unassigned"],
+            setup=response["summary"]["setup"],
+            service=response["summary"]["service"],
+            duration=response["summary"]["duration"],
+            waiting_time=response["summary"]["waiting_time"],
+            priority=response["summary"]["priority"],
+            loading=response["summary"]["computing_times"]["loading"],
+            solving=response["summary"]["computing_times"]["solving"],
+            delivery=response["summary"]["delivery"],
+            amount=response["summary"]["amount"],
+            hub_id=hub_id,
+            user_id=user.id,
         )
         session.add(oprimized)
         await session.commit()
-        return response['code']
+        return response["code"]
     else:
         return HTTPException(status_code=400, detail=response.text)
-    
+
+
 @router.get("/list", status_code=200)
 async def list_optimized(
     response: Response,
@@ -106,7 +107,11 @@ async def list_optimized(
     user: User = Depends(current_user),
 ) -> Any:
     total = await session.scalar(
-        select(func.count(Optimized.id).filter(Optimized.user_id == user.id).filter(Optimized.hub_id == hub_id))
+        select(
+            func.count(Optimized.id)
+            .filter(Optimized.user_id == user.id)
+            .filter(Optimized.hub_id == hub_id)
+        )
     )
     optimizeds = (
         (
@@ -126,6 +131,7 @@ async def list_optimized(
         "Content-Range"
     ] = f"{request_params.skip}-{request_params.skip + len(optimizeds)}/{total}"
     return [optimized.serialize_simple for optimized in optimizeds]
+
 
 @router.get("/{id}")
 async def get_optimized(

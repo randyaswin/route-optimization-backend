@@ -12,6 +12,7 @@ from fastapi_users_db_sqlalchemy import GUID
 
 from app.db import Base
 
+
 class Optimized(Base):
     __tablename__ = "vrp_optimized"
 
@@ -119,7 +120,6 @@ class Optimized(Base):
     )
     user_id = sa.Column(GUID, sa.ForeignKey("users.id"))
 
-
     @property
     def serialize(self):
         return {
@@ -141,7 +141,7 @@ class Optimized(Base):
             "unassigned": self.unassigned,
             "routes": self.routes,
         }
-        
+
     @property
     def serialize_simple(self):
         return {
