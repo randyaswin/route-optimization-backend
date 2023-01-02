@@ -1,0 +1,16 @@
+vehicleID,name,profile,start,end,capacity:weight:kg,capacity:volume:m3,tag,break:1:start,break:1:end,break:1:name,break:1:service_time
+FGF356,vehicle_001234,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+DSC456,vehicle_002343,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+JDS235,vehicle_003452,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+FGF356,vehicle_004561,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+JDS235,vehicle_005670,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+JDS238,vehicle_006779,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+DSC461,vehicle_007888,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+JDS239,vehicle_008997,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+DSC463,vehicle_010106,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+JDS242,vehicle_011215,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+DSC467,vehicle_012324,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+JDS242,vehicle_013433,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+DSC464,vehicle_014542,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+FGF363,vehicle_015651,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30
+JDS243,vehicle_016760,car,7:00:00,18:00:00,10000,300,default,11:00:00,13:00:00,break,30

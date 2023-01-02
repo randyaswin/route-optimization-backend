@@ -1,0 +1,78 @@
+visitID,name,address,open,close,service_time,demand:weight:kg,demand:volume:m3,longitude,latitude,tag
+EDKK2483,Store - Tammy,"871 Matthew Landing Suite 835
+North Sharon, CO 55350",7:00:00,18:00:00,30,100,,107.070246,-6.368227,default
+LDIO1583,Store - Kevin,"9200 Timothy Gardens Apt. 473
+Williamton, KY 13725",7:00:00,18:00:00,30,100,,107.073428,-6.386666,
+KDNN3593,Store - Douglas,"2507 Laura Radial Suite 559
+Berrymouth, OH 02233",7:00:00,18:00:00,30,100,,107.08942,-6.419877,default
+DSJN4713,Store - Isaac,"67344 Williams Fork
+Mooreburgh, IL 82534",7:00:00,18:00:00,30,100,,107.091037,-6.471128,default
+KJDK3603,Store - Michelle,"30421 James FerryEast Eric, OK 37397",10:00:00,18:00:00,30,700,,107.076219,-6.437663,
+EDKK2484,Store - Natalie,"6348 Joel Grove Apt. 345
+East Charles, RI 75707",7:00:00,18:00:00,30,100,,107.064336,-6.436186,default
+LDIO1584,Store - Jamie,"96906 Douglas Roads
+Michaelland, MI 53518",7:00:00,18:00:00,30,100,,106.989089,-6.498613,default
+KDNN3594,Store - Ryan,"Unit 3317 Box 6660
+DPO AP 65797",7:00:00,18:00:00,30,100,,107.00273,-6.510485,
+DSJN4714,Store - David,"92273 Joseph Tunnel
+Gambleside, UT 51755",7:00:00,18:00:00,30,100,,107.050369,-6.512675,default
+KJDK3604,Store - Derek,"USNS Palmer
+FPO AP 74007",7:00:00,18:00:00,30,100,,107.057538,-6.435328,default
+EDKK2485,Store - Julia,"93416 Glenn Square Suite 287
+Hallbury, AR 38902",7:00:00,18:00:00,30,100,,107.052388,-6.414323,
+LDIO1585,Store - John,"055 Michelle Villages Suite 119
+New Alexismouth, OH 02033",7:00:00,18:00:00,30,100,,107.024981,-6.404862,default
+KDNN3595,Store - David,"410 Ethan Street
+Ryanstad, CA 24699",7:00:00,18:00:00,30,100,,106.999428,-6.404156,default
+DSJN4715,Store - Lisa,"Unit 6066 Box 4936
+DPO AP 04119",7:00:00,18:00:00,30,100,,107.033489,-6.397548,
+KJDK3605,Store - Brian,"Unit 6719 Box 9006
+DPO AP 28428",7:00:00,18:00:00,30,100,,107.046281,-6.405066,default
+EDKK2486,Store - Patricia,"312 Tonya Mission Suite 171North Tracymouth, ND 74742",7:00:00,18:00:00,30,1000,,107.053244,-6.347141,default
+LDIO1586,Store - Christopher,"6638 Stephanie Ranch
+New Williamport, WA 54514",7:00:00,18:00:00,30,100,,107.053141,-6.298575,
+KDNN3596,Store - Samantha,"66811 Olivia Terrace Apt. 624
+North Robertville, PA 25292",7:00:00,18:00:00,30,100,,107.022309,-6.308169,default
+DSJN4716,Store - Mark,"960 Cunningham Points Apt. 139
+New Vincentview, ME 08349",7:00:00,18:00:00,30,100,,106.912101,-6.436734,default
+KJDK3606,Store - Ronald,"96028 Vasquez Grove
+Robertside, ND 40142",7:00:00,18:00:00,30,100,,106.957238,-6.425417,
+EDKK2487,Store - Dr.,"45783 Bates Lock Suite 243
+Sparksview, CO 82725",7:00:00,18:00:00,30,100,,106.964843,-6.450144,default
+LDIO1587,Store - William,"PSC 2064, Box 8491
+APO AA 15636",7:00:00,18:00:00,30,100,,106.963284,-6.395358,default
+KDNN3597,Store - Julie,"PSC 1681, Box 9076
+APO AP 47785",7:00:00,18:00:00,30,100,,106.982775,-6.367207,
+DSJN4717,Store - Brandon,"9617 Sharon Extensions
+Port Joshuafort, NY 28813",7:00:00,18:00:00,30,100,,106.992895,-6.32288,default
+KJDK3607,Store - Gregory,"867 Karen Brooks
+Lake Adambury, SD 69200",7:00:00,18:00:00,30,100,,106.963327,-6.350001,default
+EDKK2488,Store - Daniel,"899 Jennifer SpurSmithmouth, MT 65387",7:00:00,18:00:00,30,500,,106.957215,-6.318745,
+LDIO1588,Store - Kathryn,"Unit 9452 Box 0906
+DPO AP 52860",7:00:00,18:00:00,30,100,,106.957405,-6.313175,default
+KDNN3598,Store - Victoria,"272 Nicole Mountains
+Port Patriciabury, VA 80270",7:00:00,18:00:00,30,100,,106.890598,-6.404217,default
+DSJN4718,Store - Courtney,"75145 John Island Suite 117
+Lake Christineburgh, MD 71373",7:00:00,18:00:00,30,100,,106.888537,-6.387109,
+KJDK3608,Store - Debra,"8185 Miller Mountains
+Lake Alexander, MS 82218",7:00:00,18:00:00,30,100,,106.867762,-6.298914,default
+EDKK2489,Store - Lisa,"045 Thomas Wall
+Angelburgh, CA 45907",7:00:00,18:00:00,30,100,,106.88151,-6.314506,default
+LDIO1589,Store - Daniel,"USNV Garcia
+FPO AE 09984",7:00:00,18:00:00,30,100,,106.909311,-6.306082,
+KDNN3599,Store - Jessica,"253 Nathan Underpass
+East Lisa, DE 99265",7:00:00,18:00:00,30,100,,106.911493,-6.341288,default
+DSJN4719,Store - David,"384 Henson Centers Apt. 772
+Juliaton, WV 89570",7:00:00,18:00:00,30,100,,106.89253,-6.460162,default
+KJDK3609,Store - Colton,"31291 Sherri Plaza Apt. 781
+Ashleychester, ME 59033",7:00:00,18:00:00,30,100,,106.888431,-6.474643,
+EDKK2490,Store - Tanya,"60724 Christine Hills Suite 326
+New Emilybury, KY 41323",7:00:00,18:00:00,30,100,,106.890203,-6.497471,default
+LDIO1590,Store - Lisa,"474 Price Station Apt. 664
+Morrowborough, MO 70231",7:00:00,18:00:00,30,100,,106.864079,-6.527958,default
+KDNN3600,Store - Adam,"63723 Stevenson Alley Suite 789
+New Terrancemouth, CT 03154",7:00:00,18:00:00,30,100,,106.870883,-6.463356,
+DSJN4720,Store - John,"41222 Dana Plains
+Burkefurt, SD 33773",7:00:00,18:00:00,30,100,,106.863956,-6.446746,default
+KJDK3610,Store - Christopher,"705 Misty Trail Suite 539
+Petersenchester, WY 51933",7:00:00,18:00:00,30,100,,106.858686,-6.397238,default

@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  backend:
+    image: "vrp-backend:latest"
+
+  # frontend:
+  #   image: "vrp-frontend:latest"
